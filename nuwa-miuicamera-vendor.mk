@@ -3,7 +3,7 @@
 #
 
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/xiaomi/vermeer-miuicamera
+    vendor/xiaomi/nuwa-miuicamera
 
 PRODUCT_PACKAGES += \
     libcamera_algoup_jni.xiaomi \

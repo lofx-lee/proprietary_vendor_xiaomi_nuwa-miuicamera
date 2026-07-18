@@ -4,7 +4,7 @@
 
 soong_namespace {
     imports: [
-        "device/xiaomi/vermeer-miuicamera",
+        "device/xiaomi/nuwa-miuicamera",
     ],
 }
 
