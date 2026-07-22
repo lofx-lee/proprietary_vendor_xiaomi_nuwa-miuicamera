@@ -111,6 +111,7 @@ cc_prebuilt_library_shared {
                 "libmedia_jni_utils",
                 "libnativehelper",
                 "libhidlbase",
+                "libhidltransport",
                 "vendor.xiaomi.hardware.campostproc@1.0_system",
                 "libc++",
                 "libc",
