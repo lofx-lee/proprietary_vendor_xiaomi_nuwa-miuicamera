@@ -20,6 +20,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so",
             ],
             shared_libs: [
+                "libgui_shim_miuicamera",
                 "libbinder",
                 "libcamera_client",
                 "libcamera_metadata",
@@ -59,6 +60,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so",
             ],
             shared_libs: [
+                "libgui_shim_miuicamera",
                 "libbinder",
                 "libcamera_client",
                 "libcamera_metadata",
@@ -109,7 +111,6 @@ cc_prebuilt_library_shared {
                 "libmedia_jni_utils",
                 "libnativehelper",
                 "libhidlbase",
-                "libhidltransport",
                 "vendor.xiaomi.hardware.campostproc@1.0_system",
                 "libc++",
                 "libc",
